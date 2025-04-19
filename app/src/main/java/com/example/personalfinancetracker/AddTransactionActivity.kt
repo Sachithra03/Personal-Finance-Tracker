@@ -15,7 +15,7 @@ class AddTransactionActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAddTransactionBinding
 
     private val categories = listOf(
-        "Select Category", // ✨ Only for display
+        "Select Category",
         "Food", "Social Life", "Pets", "Transport", "Culture",
         "Household", "Apparel", "Beauty", "Health", "Education", "Gift", "Other"
     )
